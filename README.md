@@ -10,6 +10,26 @@ Install this addon via ember-cli:
 ember install ember-cli-enums
 ```
 
+## Usage
+
+Use the following command to create a new enumerator:
+
+```
+ember g enum <name>
+```
+
+It creates it in the folder `enum/` with the following structure:
+
+```
+export default Object.freeze([
+  {
+    // example of an element of the enumerator
+    label: 'Label',
+    value: 'value',
+  },
+]);
+```
+
 ## Development
 
 ### Installation
